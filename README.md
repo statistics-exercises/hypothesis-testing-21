@@ -16,6 +16,6 @@ With that in mind, the file `mydata.dat` contains two columns.  The first column
 To get you started on this task I have written two functions for you to complete:
 
 1. `testStatistic` - this function takes two  NumPy arrays in input:  `data1` that contains the samples from the first distribution and `data2` contains the samples from the second distribution.  This function should return the test statistic, T, that is defined using the formula above.   You will also need to compute the two sample variances in this function.  
-2. `pvalu`e - this function takes two  NumPy arrays in input:  `data1` that contains the samples from the first distribution and `data2` contains the samples from the second distribution.   To complete the task you must use the value of the `testStatistic` to calculate the p-value.  The p-value should then be returned.
+2. `pvalue` - this function takes two  NumPy arrays in input:  `data1` that contains the samples from the first distribution and `data2` contains the samples from the second distribution.   To complete the task you must use the value of the `testStatistic` to calculate the p-value.  The p-value should then be returned.
 
 As a final point, notice that different numbers of samples have been taken from the two distributions that the test is being run on.  It should be clear, from the formulas above that this is not a big problem for this kind of test.   
